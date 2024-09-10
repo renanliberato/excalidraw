@@ -248,6 +248,14 @@ export const StatsInner = memo(
                         {t(`element.${singleElement.type}`)}
                       </StatsRow>
 
+                      <StatsRow heading>
+                        id
+                      </StatsRow>
+                      
+                      <StatsRow>
+                        {singleElement.id}
+                      </StatsRow>
+
                       <StatsRow>
                         <Position
                           element={singleElement}
